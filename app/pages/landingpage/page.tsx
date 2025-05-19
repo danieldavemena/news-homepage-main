@@ -5,7 +5,7 @@ import TopNews from "@/app/components/topnews";
 
 const page = () => {
   return (
-    <div className="w-[1300px] my-[50px] absolute left-1/2 transform -translate-x-1/2">
+    <div className="w-[1200px] mt-[70px] absolute left-1/2 transform -translate-x-1/2">
       <NavBar />
       <Feed />
       <TopNews />
