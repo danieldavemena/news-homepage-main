@@ -6,19 +6,21 @@ import Line from "@/app/components/line";
 const feed = () => {
   return (
     <main className="grid grid-cols-3 grid-rows-2 mt-[50px] ">
-      <div className="col-span-2">
+      <div className="col-span-2 ">
         <Image src={WebImage} alt="" />
       </div>
       <div className="row-start-2 mt-10 row-span-1 col-span-1">
-        <h1 className="font-bold text-7xl">The Bright Future of Web 3.0?</h1>
+        <h1 className="font-bold text-6xl mr-8">
+          The Bright Future of Web 3.0?
+        </h1>
       </div>
       <div className="row-start-2 mt-10 row-span-1 col-span-1 flex flex-col">
-        <p className="text-xl">
+        <p className="text-xl text-[#5b5b5b]">
           We dive into the next evolution of the web that claims to put the
           power of the platforms back into the hands of the people. But is it
           really fulfilling its promise?
         </p>
-        <div className="w-max text-lg font-bold tracking-widest py-2 px-12 mt-8 bg-[#EE604B]">
+        <div className="w-max text-lg font-bold tracking-widest py-2 px-12 mt-11 bg-[#EE604B]">
           READ MORE
         </div>
       </div>
