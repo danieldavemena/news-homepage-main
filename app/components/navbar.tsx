@@ -15,7 +15,7 @@ const navbar = () => {
 
   return (
     <div>
-      <nav className="flex items-center md:w-[1200px] md:mt-[65px] w-[360px] mt-[35px]  absolute left-1/2 transform -translate-x-1/2">
+      <nav className="flex items-center md:w-[1200px] md:mt-[65px] w-[360px] mt-[50px]  absolute left-1/2 transform -translate-x-1/2">
         <div className="md:flex hidden">
           <Image src={Logo} width={70} alt="" />
         </div>
