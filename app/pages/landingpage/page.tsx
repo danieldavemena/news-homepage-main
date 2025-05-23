@@ -4,7 +4,7 @@ import TopNews from "@/app/components/topnews";
 
 const page = () => {
   return (
-    <div className="md:w-[1200px] md:mt-[70px] w-[360px] mt-[40px] absolute left-1/2 transform -translate-x-1/2">
+    <div className="md:w-[1200px] md:mt-[95px] w-[360px] mt-[60px] absolute left-1/2 transform -translate-x-1/2">
       <Feed />
       <TopNews />
     </div>
